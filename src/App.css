@@ -1,0 +1,33 @@
+
+.App {
+  text-align: center;
+  background: floralwhite;
+  overflow: hidden;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: indigo;
+  color: gold;
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+a{
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: violet;
+}
